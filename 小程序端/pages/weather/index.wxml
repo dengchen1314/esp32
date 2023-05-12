@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="content">
+  <view class="info"> 城市编码：{{adcode}}</view>
+  <view class="info"> 所在省份：{{province}}</view>
+  <view class="info"> 城市：{{city}}</view>
+  <view class="info">天气现象：{{weather}}</view>
+  <view class="info"> 实时气温：{{temperature}}℃</view>
+  <view class="info"> 风向：{{winddirection}}</view>
+  <view class="info"> 风力：{{windpower}}</view>
+  <view class="info"> 空气湿度：{{humidity}}%</view>
+  <view class="info"> 发布时间：{{reporttime}}</view>
+</view>

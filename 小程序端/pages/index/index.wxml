@@ -1,0 +1,75 @@
+<!-- <view class="button-sp-are">
+  <button class="weui-btn" type="primary" size="mini"  bindtap="onClickOpen">开门</button>
+  <button type="warn" size="mini"  bindtap="onClickOff">关门</button>
+  <button size="mini">温度：{{temperature}}℃</button>
+  <button size="mini">湿度：{{humidity}}</button>
+</view> -->
+<view class="home">
+    <!--表头-->
+    <view class="timu1">
+    <text class="timu2">Smart Home</text>
+    <!--图片-->
+    <view class="biaoti">
+      <image class="max-logo" src="../image/home-head.jpg"></image>
+    </view>
+  </view>
+    <!--传感器-->
+    <view class="data-wrapper">
+    <view class="flower-info-block">
+      <view class="up">
+        <image class="min-logo" src="../image/temp.png"></image>
+        <view class="num-text">
+        <text class="text"> {{temperature}}</text>
+      </view>
+      </view>
+      <view class="down">
+        <text>室内温度°C</text>
+      </view>
+    </view>
+
+    <view class="flower-info-block">
+      <view class="up">
+        <image class="min-logo" src="../image/hump.png"></image>
+        <view class="num-text">
+          <text class="text">{{humidity}}</text>
+        </view>
+      </view>
+      <view class="down">
+        <text>室内湿度 （%）</text>
+      </view>
+    </view>
+  </view>
+    <!--开关-->
+    <view class="data-wrapper">
+
+<view class="flower-info-block">
+  <view class="up">
+    <image class="min-logo" src="../image/气体.png"></image>
+    <view class="num-text">
+      <text class="text">{{GasConcentration}}</text>
+    </view>
+  </view>
+  <view class="down">
+    <text>异味浓度 （%）</text>
+  </view>
+</view>
+
+<!--开门-->
+<view class="flower-info-block">
+
+  <view class="up">
+    <image class="min-logo" src="../image/手机开门.png"></image>
+    <text class="text">{{RunningState}}</text>
+    <text class="text">{{openstate}}</text>
+  </view>
+</view>
+</view>
+<view class="kaiguan">
+  <view>
+  <button class="weui-btn" type="primary" size="mini"  bindtap="onClickFlashOpen">打开风扇</button>
+</view>
+<view>
+  <button class="weui-btn" type="primary" size="mini"  bindtap="onClickDoorOpen">打开门</button>
+</view>
+</view>
+</view>

@@ -1,0 +1,180 @@
+/* pages/weather/index.wxss */
+page {
+  background-color: #f6f6f6;
+}
+
+.header {
+  background-color:#64c8fa; 
+  /* background-image: linear-gradient(to right, #64a0f8, #64c8fa); */
+  height: 450rpx;
+  padding-top: 32rpx;
+  text-align: center;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.city {
+  text-align: center;
+  color: white;
+  display: inline-block;
+  font-size: 52rpx;
+  margin-left: 32rpx;
+}
+
+.search {
+  margin-right: 32rpx;
+  border-radius: 8rpx;
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 70rpx;
+}
+
+.search input {
+  width: 200rpx;
+  padding: 18rpx 32rpx;
+  text-align: left;
+  color: white;
+  display: inline-block;
+}
+
+.bt_search {
+  border-radius: 0 8rpx 8rpx 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.bt_search icon {
+  margin: 8rpx 18rpx;
+}
+
+.center {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.tmp {
+  margin-left: 18rpx;
+  display: inline-block;
+  font-size: 180rpx;
+  color: white;
+}
+.cond-image{
+  width: 200rpx;
+  margin-right: 32rpx;
+  margin-top: 32rpx;
+}
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+.bottom view{
+  color: white;
+  margin: 32rpx;
+}
+
+.hourly_title{
+  font-weight: bold;
+  font-size: 42rpx;
+   padding: 18rpx 32rpx;
+}
+.hourly {
+  width: 718rpx;
+  margin: 0 18rpx;
+  border-radius: 18rpx;
+  box-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.15);
+  white-space: nowrap;
+  background-color: white;
+}
+.h_item {
+  margin: 18rpx 0;
+  display: inline-block;
+  width: 143.5rpx;
+  text-align: center;
+  font-size: 28rpx;
+}
+
+.h_img {
+  margin: 64rpx 0;
+}
+
+.h_img image {
+  width: 60rpx;
+}
+
+.h_item text {
+  display: block;
+}
+
+.h_time {
+  color: gray;
+}
+
+.h_wind_dir {
+  margin-top: 32rpx;
+}
+
+.h_wind_sc {
+  color: gray;
+}
+
+.h_tmp {
+  color: #027aff;
+}
+
+.daily {
+  width: 718rpx;
+  white-space: nowrap;
+  margin: 0 18rpx;
+  background-color: white;
+  border-radius: 18rpx;
+  box-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.15);
+}
+
+.d_item {
+  
+  margin: 18rpx 0;
+  display: inline-block;
+  width: 179.5rpx;
+  text-align: center;
+  font-size: 28rpx;
+}
+
+.d_item text {
+  display: block;
+}
+
+.d_date {
+  color: gray;
+}
+
+.d_wind_dir {
+  margin-top: 32rpx;
+}
+
+.d_wind_sc {
+  color: gray;
+}
+
+.footer{
+  font-size: 28rpx;
+  color: gray;
+  text-align: center;
+  margin-top: 50rpx;
+  margin-bottom: 18rpx;
+}

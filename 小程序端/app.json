@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/map/index",
+    "pages/mqdevice1/mqttClient1",
+    "pages/mq/mqttClient"
+
+    ],
+    "window":{
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#fff",
+      "navigationBarTitleText": "ESP32智能卫生间门控系统",
+      "navigationBarTextStyle": "black"
+    }, 
+  "tabBar": {
+    "selectedColor": "#fc5531",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/pages/image/icon_component.png",
+        "selectedIconPath": "/pages/image/icon_component_HL.png"
+      },
+      {
+        "pagePath": "pages/mqdevice1/mqttClient1",
+        "text": "天气",
+        "iconPath": "/pages/image/weather1.png",
+        "selectedIconPath": "/pages/image/weather2.png"
+      },
+      {
+        "pagePath": "pages/map/index",
+        "text": "地图",
+        "iconPath": "/pages/image/map1.png",
+        "selectedIconPath": "/pages/image/map2.png"
+      }
+    ]
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json",
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation"
+  ]
+}
